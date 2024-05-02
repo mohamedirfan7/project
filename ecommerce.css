@@ -1,0 +1,67 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0%;
+    padding: 0%;
+}
+nav{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0%;
+    padding: 0%;
+}
+nav li{
+    display: inline;
+    margin-right: 30px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+nav a:hover{
+    background-color: white;
+    color: black;
+}
+#product{
+    padding: 16px;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+}
+ .tshirt,.shoe,.watch{
+    border: 1px solid;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+ }
+.tshirt img,.shoe img,.watch img{
+    width: 250px;
+    height: 250px;
+    border-radius: 4px;
+ }
+ .price{
+    font-weight: bold;
+    font-size: larger;
+ }
+button{
+    background-color: black;
+    color: white;
+    font-size: medium;
+ }
+ button:hover{
+    background-color: white;
+    color: black;
+ }
+ footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    clear: both;
+    font-size: medium;
+ }
